@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div class="slider-thumb"></div>
+    <div id="bmi-container">
+        <h1>BMI Calculator</h1>
+        
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" placeholder="Enter weight">
+
+        <label for="height">Height (Cm):</label>
+        <input type="number" id="height" placeholder="Enter height">
+
+        <div id="submit">
+        <br><button onclick="calculateBMI()">Calculate BMI</button>
+        </div>
+
+        <h2>Result:</h2>
+        <div id="result"></div>
+    </div>
+</body>
+<div id="bottom">
+    <p>Author: Sampath Reddy<br>
+    <a href="mailto:sampathreddygoluguri@gmail.com">sampathreddygoluguri@gmail.com</a></p>
+</div>
+</html>
